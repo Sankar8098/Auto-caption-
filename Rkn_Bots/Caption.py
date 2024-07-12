@@ -10,7 +10,7 @@ import asyncio, re, time, sys
 from .database import total_user, getid, delete, addCap, updateCap, insert, chnl_ids
 from pyrogram.errors import FloodWait
 
-@Client.on_message(filters.private & filters.user(Rkn_Bots.ADMIN)  & filters.command(["rknusers"]))
+@Client.on_message(filters.private & filters.user(Rkn_Bots.ADMIN)  & filters.command(["users"]))
 async def all_db_users_here(client,message):
     x = await message.reply_text("Please Wait....")
     total = await total_user()
@@ -63,10 +63,10 @@ async def start_cmd(bot, message):
     await message.reply_photo(photo=Rkn_Bots.RKN_PIC,
         caption=f"<b>Hey, {message.from_user.mention}\n\nI'm an auto-caption bot. I automatically edit captions for videos, audio files, and documents posted on channels.\n\nuse <code>/set_caption</code> to set caption\nUse<code>/delcaption</code> To delete caption and set caption to default.\n\nNote:All commands works on channels only</b>",
         reply_markup=types.InlineKeyboardMarkup([[
-            types.InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/RknDeveloper'),
+            types.InlineKeyboardButton('Uᴩᴅᴀᴛᴇꜱ', url='https://t.me/mr_v_bots'),
             types.InlineKeyboardButton('Sᴜᴩᴩᴏʀᴛ', url='https://t.me/Rkn_Bots_Support')
             ],[
-            types.InlineKeyboardButton('🔥 Source Code 🔥', url='https://github.com/RknDeveloper/Rkn-AutoCaptionBot')
+            types.InlineKeyboardButton('🔥 Source Code 🔥', url='https://t.me_mr_v_bots')
     ]]))
     
 
