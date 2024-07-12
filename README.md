@@ -13,18 +13,18 @@
 
 <details><summary>📌 Deploy to Koyeb </summary>
   
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/RknDeveloper/Rkn-AutoCaptionBot&env[BOT_TOKEN]&env[API_ID]&env[API_HASH]&env[ADMIN]&env[DB_NAME]&env[DB_URI]&env[FORCE_SUB]&env[RKN_PIC]=https://graph.org/file/f6c15009bce07058f1edb.jpg&env[DEF_CAP]&run_command=python%20bot.py&branch=main&name=Rkn-AutoCaptionBot) 
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/v15hnuf6n1x/Auto_Caption_Bot/tree/main&env[BOT_TOKEN]&env[API_ID]&env[API_HASH]&env[ADMIN]&env[DB_NAME]&env[DB_URI]&env[FORCE_SUB]&env[RKN_PIC]=https://graph.org/file/f6c15009bce07058f1edb.jpg&env[DEF_CAP]&run_command=python%20bot.py&branch=main&name=Rkn-AutoCaptionBot) 
 </details>
 
 <details><summary>📌 Deploy to Render </summary>
   
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/RknDeveloper/Rkn-AutoCaptionBot)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/v15hnuf6n1x/Auto_Caption_Bot/tree/main)
 
 </details>
   
 <details><summary>📌 Deploy to Heroku </summary>
   
-<a href="https://heroku.com/deploy?template=https://github.com/RknDeveloper/Rkn-AutoCaptionBot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"></p></a>
+<a href="https://heroku.com/deploy?template=https://github.com/v15hnuf6n1x/Auto_Caption_Bot/tree/main"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"></p></a>
 </details>
 
 <details><summary>📌 Deploy to Railway </summary>
