@@ -31,23 +31,23 @@ class Rkn_AutoCaptionBot(Client):
                 self.invitelink = link
             except Exception as e:
                 print(e)
-                print("Make Sure Bot admin in force sub channel")
+                print("Make Sure Bot is an admin in the force sub channel")
                 self.force_channel = None
         app = web.AppRunner(await web_server())
         await app.setup()
         bind_address = "0.0.0.0"
         await web.TCPSite(app, bind_address, Rkn_Bots.PORT).start()
-        print(f"{me.first_name} Iꜱ Sᴛᴀʀᴛᴇᴅ.....✨️")
+        print(f"{me.first_name} is started.....✨️")
         for id in Rkn_Bots.ADMIN:
             try:
-                await self.send_message(id, f"**__{me.first_name}  Iꜱ Sᴛᴀʀᴛᴇᴅ.....✨️__**")
-            except:
-                pass
+                await self.send_message(id, f"**__{me.first_name} is started.....✨️__**")
+            except Exception as e:
+                print(f"Error sending start message to {id}: {e}")
         
     async def stop(self, *args):
         await super().stop()
-        print("Bot Stopped 🙄")
-        
+        print("Bot stopped 🙄")
+
 Rkn_AutoCaptionBot().run()
 
 # Rkn Developer 
